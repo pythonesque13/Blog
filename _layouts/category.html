@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="content-cat">
+    <h1>📂 {{ page.category }}</h1>
+    <ul class="post-list">
+    {% assign category_posts = site.posts | where: "category", page.category %}
+    {% for post in category_posts %}
+        <li>
+            <article class="post-preview">
+                <div class="post-title-meta">
+                    <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+                    <span class="dot-separator"></span>
+                    <span class="post-date">{{ post.date | date: "%d %b, %Y" }}</span>
+                </div>
+            </article>            
+        </li>
+    {% endfor %}
+    </ul>
+</div>

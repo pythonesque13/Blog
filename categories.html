@@ -1,0 +1,22 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+<div class="content-cat">
+  <h1>📂 Catégories</h1>
+  <ul class="categories-list">
+    {% assign categories = site.posts | map: "category" | uniq %}
+    {% for category in categories %}
+      {% assign post_count = site.posts | where: "category", category | size %}
+      {% assign category_url = category | downcase | replace: ' ', '-' %}
+      <li>
+        <a href="{{ site.baseurl }}/categories/{{ category_url }}/" class="category-card">
+          <i class="fas fa-folder"></i>
+          <span>{{ category }}</span>
+          <span class="count">({{ post_count }} posts)</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

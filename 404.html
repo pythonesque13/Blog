@@ -1,0 +1,26 @@
+---
+layout: default
+title: Page Non Trouvée
+permalink: /404.html
+---
+<div class="error-page">
+    <div class="error-content">
+        <h1>404</h1>
+        <h2>Oups! Page Non Trouvée</h2>
+        <p>La page que vous recherchez semble avoir été déplacée ou n'existe plus.</p>
+        
+        <div class="error-actions">
+            <a href="/" class="btn-primary">Retour à l'accueil</a>
+            <a href="/categories" class="btn-secondary">Parcourir les catégories</a>
+        </div>
+
+        <div class="suggested-posts">
+            <h3>Articles suggérés</h3>
+            <ul>
+                {% for post in site.posts limit:3 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+.page {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--secondary-color);
+  
+    .page-header {
+      margin-bottom: 2rem;
+      
+      .page-title {
+        color: var(--primary-color);
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+  
+    .page-content {
+      line-height: 1.6;
+      
+      h2 {
+        color: var(--primary-color);
+        margin: 2rem 0 1rem;
+      }
+  
+      p {
+        margin-bottom: 1.5rem;
+      }
+  
+      ul, ol {
+        margin: 1rem 0;
+        padding-left: 2rem;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        border-radius: 8px;
+      }
+  
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }

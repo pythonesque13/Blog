@@ -1,0 +1,120 @@
+// _search.scss
+// Variables
+$search-height: 3rem;
+$search-border-radius: 1.5rem;
+$search-background: var(--background-color);
+$search-border: 1px solid var(--border-color);
+$search-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+.search-container {
+  width: 25%;
+  max-width: 200px;
+  padding-left: 60%;
+  margin-bottom: 15px;
+  margin-top: 55px;
+  position: relative; 
+}
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  height: $search-height;
+  padding: 0 3rem;
+  border: $search-border;
+  border-radius: $search-border-radius;
+  background: $search-background;
+  font-size: 1rem;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: $search-shadow;
+  }
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--secondary-color);
+}
+
+.search-clear {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: none;
+  
+  &.visible {
+    display: block;
+  }
+  
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+// Message "Not found"
+.no-results {
+  display: none;
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  padding: 1rem;
+  background: var(--background-color);
+  border: $search-border;
+  border-radius: $search-border-radius;
+  margin-top: 0.5rem;
+  color: var(--text-color);
+  box-shadow: $search-shadow;
+  
+  &.visible {
+    display: block;
+  }
+}
+
+// Style pour les articles
+.post-card {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  height: auto;
+  
+  &.hidden {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .search-container {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 0.875rem;
+    height: 2.5rem;
+  }
+}

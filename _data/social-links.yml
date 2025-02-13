@@ -1,0 +1,15 @@
+- name: LinkedIn
+  url: https://www.linkedin.com/in/martin-tsemegne-507699292/
+  icon: fab fa-linkedin
+
+- name: Twitter/X
+  url: https://twitter.com/MartinT707
+  icon: fab fa-x-twitter
+
+- name: GitHub
+  url: https://github.com/pythonesque13/
+  icon: fab fa-github
+
+- name: Email
+  url: mailto:martinelproffesor62@gmail.com
+  icon: fas fa-envelope

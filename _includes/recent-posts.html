@@ -1,0 +1,12 @@
+<div class="recent-posts">
+    <h3>Recently Updated</h3>
+    <ul class="list-recents">
+        {% for post in site.posts limit:5 %}
+        <li>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

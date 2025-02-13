@@ -1,0 +1,53 @@
+<div class="profile">
+    <div class="profile-image">
+        <a class="link-img" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Profile">
+        </a>
+    </div>
+    <h1 class="name">{{ site.title }}</h1>
+</div>
+
+<nav class="navigation">
+    <ul class="nav-menu">
+        <li class="{% if page.url == '/' %}active{% endif %}">
+          <a href="{{ '/' | relative_url }}">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="{% if page.url contains '/categories/' %}active{% endif %}">
+          <a href="{{ '/categories' | relative_url }}">
+            <i class="fas fa-folder"></i>
+            <span>Categories</span>
+          </a>
+        </li>
+        
+        <li class="{% if page.url contains '/archives/' %}active{% endif %}">
+          <a href="{{ '/archives' | relative_url }}">
+            <i class="fas fa-archive"></i>
+            <span>Archives</span>
+          </a>
+        </li>
+        <li class="{% if page.url contains '/about/' %}active{% endif %}">
+          <a href="{{ '/about' | relative_url }}">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+          </a>
+        </li>
+      </ul>
+</nav>
+
+<div class="sidebar-social-links">
+    {% for link in site.data.social-links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="social-link">
+        <i class="{{ link.icon }}" aria-hidden="true"></i>
+        <span class="sr-only">{{ link.name }}</span>
+      </a>
+    {% endfor %}
+    
+    
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon dark-icon"></i>
+        <i class="fas fa-sun light-icon"></i>
+    </button>
+</div>

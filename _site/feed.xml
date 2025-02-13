@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/martin-tsemegne/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/martin-tsemegne/" rel="alternate" type="text/html" /><updated>2025-02-13T17:00:36+01:00</updated><id>http://localhost:4000/martin-tsemegne/feed.xml</id><title type="html">Martin TSEMEGNE</title><subtitle>Data-scienist Student</subtitle><entry><title type="html">Machine Learning Vs Deep Learning?</title><link href="http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/Ml-vs-deep.html" rel="alternate" type="text/html" title="Machine Learning Vs Deep Learning?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/Ml-vs-deep</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/Ml-vs-deep.html"><![CDATA[<p><strong>Machine Learning (ML)</strong> and <strong>Deep Learning (DL)</strong> are two key concepts in artificial intelligence. While <strong>Deep Learning</strong> is part of <strong>Machine Learning</strong>, it has specific features that set it apart and allow it to solve more complex problems.</p>
+
+<p>In this article, we will examine <strong>the differences between ML and DL</strong>, how they work, and their respective applications.</p>
+
+<hr />
+
+<h2 id="1️⃣-definition-of-machine-learning-and-deep-learning">1️⃣ Definition of Machine Learning and Deep Learning</h2>
+
+<h3 id="-what-is-machine-learning">📌 What is Machine Learning?</h3>
+<p><strong>Machine Learning (ML)</strong>, or <strong>machine learning</strong>, is a subfield of artificial intelligence that allows machines to learn from data and make predictions without being explicitly programmed.</p>
+
+<ul>
+  <li>It uses <strong>mathematical algorithms</strong> to identify patterns in data.</li>
+  <li>It requires <strong>manual preprocessing</strong> of features (<strong>feature engineering</strong>).</li>
+  <li>It is divided into <strong>supervised, unsupervised and reinforcement learning</strong>.</li>
+</ul>
+
+<p><strong>Examples of algorithms in ML</strong>:</p>
+<ul>
+  <li>Linear and logistic regression</li>
+  <li>Decision trees and random forests</li>
+  <li>Support Vector Machines (SVM)</li>
+  <li>K-Means and clustering</li>
+</ul>
+
+<h3 id="-what-is-deep-learning">📌 What is Deep Learning?</h3>
+<p><strong>Deep Learning (DL)</strong>, or <strong>deep learning</strong>, is a subcategory of Machine Learning that uses <strong>artificial neural networks</strong> inspired by the human brain.</p>
+
+<ul>
+  <li>It can learn <strong>directly</strong> from raw data (e.g. images, sounds, texts) without requiring feature engineering.</li>
+  <li>It works particularly well with <strong>large amounts of data and high computing power</strong>.</li>
+  <li>It uses <strong>deep neural networks (DNN)</strong> composed of several hidden layers.</li>
+</ul>
+
+<p><strong>Examples of DL algorithms</strong>:</p>
+<ul>
+  <li>Convolutional neural networks (CNN) for computer vision.</li>
+  <li>Recurrent neural networks (RNN, LSTM) for natural language processing.</li>
+  <li>Transformers (BERT, GPT) for text generation.</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-key-differences-between-machine-learning-and-deep-learning">2️⃣ Key differences between Machine Learning and Deep Learning</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th>Machine Learning (ML)</th>
+      <th>Deep Learning (DL)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Definition</strong></td>
+      <td>Machine learning based on statistical algorithms.</td>
+      <td>Uses deep neural networks for learning.</td>
+    </tr>
+    <tr>
+      <td><strong>Data-dependent</strong></td>
+      <td>Can work with small amounts of data.</td>
+      <td>Requires <strong>large amounts</strong> of data to be effective.</td>
+    </tr>
+    <tr>
+      <td><strong>Preprocessing</strong></td>
+      <td><strong>Manual</strong> feature engineering required.</td>
+      <td>Automatically learns features from raw data.</td>
+    </tr>
+    <tr>
+      <td><strong>Computing Power</strong></td>
+      <td>Runs well on standard <strong>CPUs</strong>.</td>
+      <td>Requires <strong>GPUs</strong> or <strong>TPUs</strong> for intensive parallel computing.</td>
+    </tr>
+    <tr>
+      <td><strong>Interpretability</strong></td>
+      <td>Easily understandable and explainable.</td>
+      <td>Black box: difficult to interpret and explain.</td>
+    </tr>
+    <tr>
+      <td><strong>Training Time</strong></td>
+      <td>Usually fast.</td>
+      <td>Can be very long depending on the complexity of the model.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="3️⃣-machine-learning-and-deep-learning-applications">3️⃣ Machine Learning and Deep Learning Applications</h2>
+
+<h3 id="-machine-learning-applications">✅ <strong>Machine Learning Applications</strong></h3>
+<ul>
+  <li>Banking fraud detection.</li>
+  <li>Recommender systems (Netflix, Amazon).</li>
+  <li>Customer segmentation and targeted marketing.</li>
+  <li>Sales and demand forecasting models.</li>
+</ul>
+
+<h3 id="-deep-learning-applications">✅ <strong>Deep Learning Applications</strong></h3>
+<ul>
+  <li>Facial recognition and biometrics.</li>
+  <li>Machine translation and advanced chatbots.</li>
+  <li>Self-driving cars and computer vision.</li>
+  <li>Text generation and AI assistants (ChatGPT, Siri, Google Assistant).</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-how-to-choose-between-machine-learning-and-deep-learning">4️⃣ How to choose between Machine Learning and Deep Learning?</h2>
+<p>The choice between <strong>ML and DL</strong> depends on several factors:</p>
+
+<ul>
+  <li><strong>Amount of available data</strong>:</li>
+  <li>Little data ➝ <strong>Machine Learning</strong>.</li>
+  <li>
+    <p>Lots of data ➝ <strong>Deep Learning</strong>.</p>
+  </li>
+  <li><strong>Complexity of the problem</strong>:</li>
+  <li>Simple and interpretable models ➝ <strong>Machine Learning</strong>.</li>
+  <li>
+    <p>Tasks requiring automatic feature extraction ➝ <strong>Deep Learning</strong>.</p>
+  </li>
+  <li><strong>Computing power</strong>:</li>
+  <li>Standard computer ➝ <strong>Machine Learning</strong>.</li>
+  <li>GPU/TPU required ➝ <strong>Deep Learning</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Machine Learning</strong> and <strong>Deep Learning</strong> are two complementary approaches to artificial intelligence.</p>
+
+<ul>
+  <li><strong>Machine Learning</strong> is often sufficient for typical tasks and is more interpretable.</li>
+  <li><strong>Deep Learning</strong> excels at complex problems requiring <strong>large amounts of data</strong> and <strong>high computing power</strong>.</li>
+</ul>
+
+<p>If you are new to AI, start with <strong>Machine Learning</strong>, then explore <strong>Deep Learning</strong> once you have mastered the basics. 🚀</p>
+
+<p>📌 <strong>And you, do you prefer Machine Learning or Deep Learning? Why?</strong></p>]]></content><author><name></name></author><category term="Machine-Learning" /><summary type="html"><![CDATA[Machine Learning (ML) and Deep Learning (DL) are two key concepts in artificial intelligence. While Deep Learning is part of Machine Learning, it has specific features that set it apart and allow it to solve more complex problems.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia3.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is Volunteering ?</title><link href="http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/benevolat.html" rel="alternate" type="text/html" title="What is Volunteering ?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/benevolat</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/benevolat.html"><![CDATA[<p><strong>Volunteering</strong> is an unpaid activity where a person puts their time and skills to the service of a cause, an association or a community. It plays an essential role in social and economic development by providing valuable assistance to people and organizations that need it.</p>
+
+<hr />
+
+<h2 id="1️⃣-what-is-volunteering">1️⃣ What is volunteering?</h2>
+
+<p>Volunteering is based on three fundamental principles:</p>
+<ul>
+  <li><strong>Free commitment</strong>: A person voluntarily chooses to give their time without financial compensation.</li>
+  <li><strong>Mutual aid and solidarity</strong>: It aims to support causes of general interest.</li>
+  <li><strong>Diversity of actions</strong>: It can concern various fields such as humanitarian, education, the environment or health.</li>
+</ul>
+
+<p>📌 <strong>Examples of volunteer actions</strong>:</p>
+<ul>
+  <li>Helping in a food bank.</li>
+  <li>Supporting students with academic difficulties.</li>
+  <li>Participating in reforestation actions.</li>
+  <li>Offer your expertise to an association.</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-why-is-volunteering-important">2️⃣ Why is volunteering important?</h2>
+<p>Volunteering is <strong>beneficial on several levels</strong>: for the beneficiaries, for the volunteers themselves and for society in general.</p>
+
+<h3 id="-impact-on-society">✅ <strong>Impact on society</strong></h3>
+<ul>
+  <li>Strengthens <strong>social cohesion</strong> by promoting mutual aid and solidarity.</li>
+  <li>Complements the actions of public services and associations.</li>
+  <li>Contributes to <strong>sustainable development projects</strong>.</li>
+</ul>
+
+<h3 id="-benefits-for-the-volunteer">✅ <strong>Benefits for the volunteer</strong></h3>
+<ul>
+  <li>Allows you to acquire <strong>new skills</strong>.</li>
+  <li>Improves <strong>mental and emotional well-being</strong> through personal accomplishment.</li>
+  <li>Helps create a <strong>social and professional network</strong>.</li>
+</ul>
+
+<h3 id="-economic-impact">✅ <strong>Economic impact</strong></h3>
+<ul>
+  <li>Reduces costs for associations and NGOs.</li>
+  <li>Promotes the professional integration of volunteers through the experience acquired.</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-how-to-get-involved-in-volunteering">3️⃣ How to get involved in volunteering?</h2>
+
+<h3 id="-1-define-your-commitment">🔹 1. Define your commitment</h3>
+<ul>
+  <li>How much time can you devote to it?</li>
+  <li>What causes are close to your heart?</li>
+  <li>What skills can you offer?</li>
+</ul>
+
+<h3 id="-2-find-a-mission">🔹 2. Find a mission</h3>
+<p>Many platforms allow you to find volunteering opportunities:</p>
+<ul>
+  <li><strong>France Bénévolat</strong>: Associative network for volunteering.</li>
+  <li><strong>UN Volunteers</strong>: International volunteering programs.</li>
+  <li><strong>Local associations and NGOs</strong>.</li>
+</ul>
+
+<h3 id="-3-participate-actively">🔹 3. Participate actively</h3>
+<ul>
+  <li>Be regular and involved.</li>
+  <li>Collaborate with other volunteers.</li>
+  <li>Learn from experience and pass on your knowledge.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Volunteering</strong> is an altruistic commitment that benefits society, associations and individuals themselves. It helps to <strong>promote solidarity, acquire new skills and contribute to a better world</strong>.</p>
+
+<p>Whether it is a few hours a month or a regular commitment, every action counts and has a positive impact. 🚀</p>
+
+<p>📌 <strong>And you, have you ever volunteered? What cause motivates you the most?</strong></p>]]></content><author><name></name></author><category term="Volunteering" /><summary type="html"><![CDATA[Volunteering is an unpaid activity where a person puts their time and skills to the service of a cause, an association or a community. It plays an essential role in social and economic development by providing valuable assistance to people and organizations that need it.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/benevol2.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/benevol2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Will AI replace humans ?</title><link href="http://localhost:4000/martin-tsemegne/ia/2025/02/09/l'homme-et-l'ia.html" rel="alternate" type="text/html" title="Will AI replace humans ?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/ia/2025/02/09/l&apos;homme-et-l&apos;ia</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/ia/2025/02/09/l&apos;homme-et-l&apos;ia.html"><![CDATA[<p><strong>Artificial Intelligence (AI)</strong> is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.</p>
+
+<p>In this article, we will explore the evolution of AI, its different approaches, and its impact on our society.</p>
+
+<hr />
+
+<h2 id="1️⃣-the-origins-of-artificial-intelligence">1️⃣ The origins of Artificial Intelligence</h2>
+
+<h3 id="-philosophical-foundations">📌 Philosophical foundations</h3>
+<p>The idea of ​​an <strong>intelligent machine</strong> dates back to Antiquity with philosophical myths and concepts:</p>
+<ul>
+  <li><strong>Antiquity</strong>: Legends of animated statues and automatons in ancient Greece.</li>
+  <li><strong>17th century</strong>: Descartes imagines that animals and humans function like machines.</li>
+  <li><strong>1854</strong>: George Boole formalizes Boolean logic, the basis of modern computer calculations.</li>
+</ul>
+
+<h3 id="-the-rise-of-computing-and-early-research-1940-1950">📌 The rise of computing and early research (1940-1950)</h3>
+<p>AI becomes a subject of study with advances in mathematics and computer science:</p>
+<ul>
+  <li><strong>1943</strong>: McCulloch &amp; Pitts develop the first artificial neuron model.</li>
+  <li><strong>1950</strong>: Alan Turing proposes the famous <strong>Turing Test</strong>, a criterion for evaluating the intelligence of a machine.</li>
+</ul>
+
+<h3 id="-official-birth-of-ai-1956">📌 Official birth of AI (1956)</h3>
+<p>At the <strong>Dartmouth conference in 1956</strong>, the term <em>Artificial Intelligence</em> is officially used by John McCarthy. This period marks the beginning of the first experiments on machine learning and problem-solving algorithms.</p>
+
+<hr />
+
+<h2 id="2️⃣-ai-jobs">2️⃣ AI Jobs</h2>
+<p>The rise of artificial intelligence has spawned a multitude of new jobs specializing in the development, analysis, and application of AI technologies.</p>
+
+<h3 id="-1-machine-learning-engineer">🔹 1. Machine Learning Engineer</h3>
+<ul>
+  <li>Develops and trains machine learning models.</li>
+  <li>Uses frameworks like TensorFlow, PyTorch, and Scikit-learn.</li>
+</ul>
+
+<h3 id="-2-data-scientist">🔹 2. Data Scientist</h3>
+<ul>
+  <li>Analyzes and exploits data to extract insights.</li>
+  <li>Works on statistical modeling and AI algorithms.</li>
+</ul>
+
+<h3 id="-3-artificial-intelligence-engineer">🔹 3. Artificial Intelligence Engineer</h3>
+<ul>
+  <li>Designs AI solutions adapted to various sectors (health, finance, industry, etc.).</li>
+  <li>Implements optimization and automation algorithms.</li>
+</ul>
+
+<h3 id="-4-ai-researcher">🔹 4. AI Researcher</h3>
+<ul>
+  <li>Works on innovation and development of new approaches in AI.</li>
+  <li>Publishes scientific articles and participates in specialized conferences.</li>
+</ul>
+
+<h3 id="-5-computer-vision-engineer">🔹 5. Computer Vision Engineer</h3>
+<ul>
+  <li>Develops image and video recognition models.</li>
+  <li>Uses image processing techniques for AI.</li>
+</ul>
+
+<h3 id="-6-natural-language-processing-engineer-nlp-engineer">🔹 6. Natural Language Processing Engineer (NLP Engineer)</h3>
+<ul>
+  <li>Designs models capable of understanding and generating text.</li>
+  <li>Works on virtual assistants, automatic translators, etc.</li>
+</ul>
+
+<h3 id="-7-robotics-and-ai-developer">🔹 7. Robotics and AI Developer</h3>
+<ul>
+  <li>Integrates AI into robotic systems to automate complex tasks.</li>
+  <li>Works on autonomous cars, industrial robotics, etc.</li>
+</ul>
+
+<h3 id="-8-ai-consultant">🔹 8. AI Consultant</h3>
+<ul>
+  <li>Helps companies integrate AI into their business processes.</li>
+  <li>Develops AI strategies and recommendations.</li>
+</ul>
+
+<h3 id="-9-ai-ethics-officer">🔹 9. AI Ethics Officer</h3>
+<ul>
+  <li>Analyzes the ethical impact of AI systems.</li>
+  <li>Works on algorithmic bias, privacy, and regulations.</li>
+</ul>
+
+<h3 id="-10-big-data-analyst">🔹 10. Big Data Analyst</h3>
+<ul>
+  <li>Mines large amounts of data to derive actionable trends.</li>
+  <li>Works in collaboration with AI and Data Science teams.</li>
+</ul>
+
+<hr />
+<h2 id="3️⃣-will-ai-replace-humans">3️⃣ Will AI replace humans?</h2>
+<p>One of the most debated questions surrounding artificial intelligence is its potential to replace humans in various fields.</p>
+
+<h3 id="-jobs-threatened-by-ai">📌 Jobs threatened by AI</h3>
+<p>Certain professions are more likely to be automated by AI, including:</p>
+<ul>
+  <li>Repetitive and manual tasks (factories, cashiers, administrative assistants).</li>
+  <li>Simple analytical jobs (basic accounting, automated customer service).</li>
+  <li>Data journalism (automatic generation of financial and sports reports).</li>
+</ul>
+
+<h3 id="-the-limits-of-ai">📌 The limits of AI</h3>
+<p>However, AI has significant limitations that make its total replacement of humans unlikely:</p>
+<ul>
+  <li><strong>Lack of consciousness and emotions</strong>: AI cannot feel or interpret human emotions like a human being.</li>
+  <li><strong>Data dependency</strong>: AI works on past data, which limits its capacity for spontaneous innovation.</li>
+  <li><strong>Need for human supervision</strong>: human supervision and interpretation remain crucial for AI.</li>
+</ul>
+
+<h3 id="-towards-human-machine-collaboration">📌 Towards human-machine collaboration</h3>
+<p>Rather than replacing humans, AI tends to <strong>assist</strong> them by improving productivity and eliminating certain repetitive tasks. Jobs will evolve towards <strong>collaboration</strong> between humans and artificial intelligence, creating new opportunities.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><strong>Artificial Intelligence</strong> has come a long way, from the first philosophical ideas to today’s advanced models. Thanks to advances in <strong>Deep Learning</strong> and <strong>massive access to data</strong>, AI continues to revolutionize our daily lives.</p>
+
+<p>Its development has also opened the door to many professional opportunities, giving rise to specialized professions in the design, analysis and ethics of AI. Although AI can automate certain tasks, its total replacement of humans remains unlikely due to its fundamental limitations.</p>
+
+<p>📌 <strong>And you, do you think that AI will replace humans one day?</strong></p>]]></content><author><name></name></author><category term="IA" /><summary type="html"><![CDATA[Artificial Intelligence (AI) is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia4.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Where deploy for free ?</title><link href="http://localhost:4000/martin-tsemegne/deployment/2025/02/09/plateforme-gratuites-pour-devops.html" rel="alternate" type="text/html" title="Where deploy for free ?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/deployment/2025/02/09/plateforme-gratuites-pour-devops</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/deployment/2025/02/09/plateforme-gratuites-pour-devops.html"><![CDATA[<p>Deploying an application often requires servers and hosting services. Fortunately, several platforms offer <strong>free options</strong> that allow developers to test, host, and deploy their projects at no cost.</p>
+
+<p>In this article, we will explore <strong>the best free platforms</strong> for deploying web and backend applications.</p>
+
+<hr />
+
+<h2 id="1️⃣-github-pages">1️⃣ GitHub Pages</h2>
+
+<h3 id="-best-for-static-sites-html-css-javascript">📌 Best for: Static sites (HTML, CSS, JavaScript)</h3>
+<ul>
+  <li>Hosted directly from a <strong>GitHub repository</strong>.</li>
+  <li>Integrates with <strong>Jekyll</strong> for static sites.</li>
+  <li>Free custom domain in <code class="language-plaintext highlighter-rouge">.github.io</code>.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong>:</p>
+<ul>
+  <li>Easy to set up.</li>
+  <li>Automatic SSL certificate.</li>
+  <li>Integrated with GitHub Actions for automation.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong> :</p>
+<ul>
+  <li>Only for <strong>static sites</strong> (no backend).</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-vercel">2️⃣ Vercel</h2>
+
+<h3 id="-best-for-front-end-applications-react-vuejs-nextjs">📌 Best for: Front-end applications (React, Vue.js, Next.js)</h3>
+<ul>
+  <li>Ultra-fast deployment with <strong>CI/CD</strong> integration.</li>
+  <li>Hosting optimized for <strong>Next.js</strong>.</li>
+  <li>Free custom domain with built-in SSL.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong> :</p>
+<ul>
+  <li><strong>Instant deployment</strong> with every Git push.</li>
+  <li><strong>Automatic scaling</strong>.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong> :</p>
+<ul>
+  <li><strong>Limitations</strong> on free resources.</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-netlify">3️⃣ Netlify</h2>
+
+<h3 id="-best-for-static-sites-and-front-end-applications">📌 Best for: Static sites and front-end applications</h3>
+<ul>
+  <li>Similar to <strong>Vercel</strong>, ideal for projects with <strong>React, Angular, Vue</strong>.</li>
+  <li>Integration with Git for automated deployment.</li>
+  <li><strong>Serverless functions</strong> features.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong>:</p>
+<ul>
+  <li><strong>Fast and secure hosting</strong>.</li>
+  <li>Free <strong>serverless</strong> backend functions.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong>:</p>
+<ul>
+  <li><strong>Limited storage</strong> on the free plan.</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-render">4️⃣ Render</h2>
+
+<h3 id="-best-for-backend-applications-and-databases">📌 Best for: Backend applications and databases</h3>
+<ul>
+  <li>Supports <strong>Node.js, Python, Ruby, Go, Rust</strong>.</li>
+  <li>Free hosting with <strong>automatic scaling</strong>.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong> :</p>
+<ul>
+  <li><strong>Support for free PostgreSQL databases</strong>.</li>
+  <li><strong>Easy deployment via Git</strong>.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong> :</p>
+<ul>
+  <li>Automatic sleep after <strong>15 minutes of inactivity</strong> on the free plan.</li>
+</ul>
+
+<hr />
+
+<h2 id="5️⃣-railway">5️⃣ Railway</h2>
+
+<h3 id="-best-for-backend-and-databases">📌 Best for: Backend and databases</h3>
+<ul>
+  <li>Supports <strong>Docker, PostgreSQL, Redis</strong>.</li>
+  <li>Quick deployment from GitHub or command line.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong> :</p>
+<ul>
+  <li><strong>Monthly free credits</strong> for testing.</li>
+  <li><strong>Scalable</strong> infrastructure.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong> :</p>
+<ul>
+  <li>Applications consume <strong>free credits</strong> quickly.</li>
+</ul>
+
+<hr />
+
+<h2 id="6️⃣-heroku-free-limited-plan">6️⃣ Heroku (Free Limited Plan)</h2>
+
+<h3 id="-best-for-backend-applications-and-apis">📌 Best for: Backend applications and APIs</h3>
+<ul>
+  <li>Free hosting for <strong>Node.js, Python, Java, Ruby</strong>.</li>
+  <li>Easy integration with GitHub and Docker.</li>
+</ul>
+
+<p>✅ <strong>Pros</strong>:</p>
+<ul>
+  <li><strong>Easy to set up and use</strong>.</li>
+  <li><strong>Free PostgreSQL database</strong>.</li>
+</ul>
+
+<p>❌ <strong>Cons</strong>:</p>
+<ul>
+  <li><strong>Sleeps after 30 minutes of inactivity</strong>.</li>
+  <li>Free plan increasingly limited.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The choice of a platform depends on the <strong>type of application</strong> you want to deploy:</p>
+<ul>
+  <li><strong>GitHub Pages, Netlify, Vercel</strong> → Ideal for static and front-end sites.</li>
+  <li><strong>Render, Railway, Heroku</strong> → Great for backend and database applications.</li>
+</ul>
+
+<p>Using <strong>free</strong> tools allows developers to <strong>test, learn, and host their projects</strong> without any upfront cost. 🚀</p>
+
+<p>📌 <strong>What platform do you use to host your applications?</strong></p>]]></content><author><name></name></author><category term="Deployment" /><summary type="html"><![CDATA[Deploying an application often requires servers and hosting services. Fortunately, several platforms offer free options that allow developers to test, host, and deploy their projects at no cost.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/devweb.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/devweb.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to get started in programming?</title><link href="http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Les-Prerequis-de-la-programation-web.html" rel="alternate" type="text/html" title="How to get started in programming?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Les-Prerequis-de-la-programation-web</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Les-Prerequis-de-la-programation-web.html"><![CDATA[<p>Web programming is an exciting and accessible field, but to get started, it is important to acquire some essential basics. This article aims to guide beginners by explaining the prerequisites necessary to effectively launch into web development.</p>
+
+<h2 id="1-understand-how-the-web-works">1. Understand how the web works</h2>
+<p>Before starting to code, it is essential to understand how the web works:</p>
+<ul>
+  <li><strong>Browser and server</strong>: interaction between clients (browsers) and servers.</li>
+  <li><strong>HTTP/HTTPS</strong>: communication protocols.</li>
+  <li><strong>Domains and hosting</strong>: how a site is accessible online.</li>
+</ul>
+
+<h2 id="2-master-the-basics-of-html-css-and-javascript">2. Master the basics of HTML, CSS and JavaScript</h2>
+<h3 id="-html-hypertext-markup-language">🔹 HTML (HyperText Markup Language)</h3>
+<p>HTML is the language used to structure a web page. It defines the elements of the page such as titles, paragraphs, images, links, etc.</p>
+
+<p>Simple example:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+<span class="nt">&lt;title&gt;</span>My first site<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;h1&gt;</span>Welcome to my site<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>This is my first paragraph.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="-css-cascading-style-sheets">🔹 CSS (Cascading Style Sheets)</h3>
+<p>CSS is used to style web pages, by defining colors, fonts, the arrangement of elements, etc.</p>
+
+<p>Simple example:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="nt">body</span> <span class="p">{</span>
+<span class="nl">font-family</span><span class="p">:</span> <span class="n">Arial</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="m">#f4f4f4</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h1</span> <span class="p">{</span>
+<span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="-javascript">🔹 JavaScript</h3>
+<p>JavaScript adds interactivity to web pages, such as animations, form validations, etc.</p>
+
+<p>Simple example:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">h1</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="nf">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">You clicked on the title!</span><span class="dl">'</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="3-learn-the-basics-of-programming">3. Learn the basics of programming</h2>
+<p>Before exploring advanced frameworks, it is useful to understand:</p>
+<ul>
+  <li>Variables and data types (string, number, boolean).</li>
+  <li>Conditions (<code class="language-plaintext highlighter-rouge">if</code>, <code class="language-plaintext highlighter-rouge">else</code>).</li>
+  <li>Loops (<code class="language-plaintext highlighter-rouge">for</code>, <code class="language-plaintext highlighter-rouge">while</code>).</li>
+  <li>Functions.</li>
+</ul>
+
+<h2 id="4-get-familiar-with-essential-tools">4. Get familiar with essential tools</h2>
+<ul>
+  <li><strong>Code editor</strong>: VS Code, Sublime Text, or Atom.</li>
+  <li><strong>Browser with development tools</strong>: Chrome DevTools, Firefox Developer Edition.</li>
+  <li><strong>Version management</strong>: Git and GitHub to save and share your code.</li>
+</ul>
+
+<h2 id="5-explore-frameworks-and-libraries">5. Explore frameworks and libraries</h2>
+<p>Once you have learned the basics, you can learn:</p>
+<ul>
+  <li><strong>Frontend</strong>: Bootstrap, React.js, Vue.js.</li>
+  <li><strong>Backend</strong>: Node.js, Django, Laravel.</li>
+  <li><strong>Databases</strong>: MySQL, PostgreSQL, MongoDB.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Learning web programming requires patience and practice. By mastering these prerequisites, you will be well prepared to begin your adventure in web development.</p>
+
+<hr />]]></content><author><name></name></author><category term="Web-Dev" /><summary type="html"><![CDATA[Web programming is an exciting and accessible field, but to get started, it is important to acquire some essential basics. This article aims to guide beginners by explaining the prerequisites necessary to effectively launch into web development.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/web2.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/web2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is Artificial Intelligence (AI)?</title><link href="http://localhost:4000/martin-tsemegne/ia/2025/02/09/C'est-quoi-l'ia.html" rel="alternate" type="text/html" title="What is Artificial Intelligence (AI)?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/ia/2025/02/09/C&apos;est-quoi-l&apos;ia</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/ia/2025/02/09/C&apos;est-quoi-l&apos;ia.html"><![CDATA[<p><strong>Artificial Intelligence (AI)</strong> is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.</p>
+
+<p>In this article, we will explore the evolution of AI, its different approaches, and its impact on our society.</p>
+
+<hr />
+
+<h2 id="1️⃣-the-origins-of-artificial-intelligence">1️⃣ The origins of Artificial Intelligence</h2>
+
+<h3 id="-philosophical-foundations">📌 Philosophical foundations</h3>
+<p>The idea of ​​an <strong>intelligent machine</strong> dates back to Antiquity with philosophical myths and concepts:</p>
+<ul>
+  <li><strong>Antiquity</strong>: Legends of animated statues and automatons in ancient Greece.</li>
+  <li><strong>17th century</strong>: Descartes imagines that animals and humans function like machines.</li>
+  <li><strong>1854</strong>: George Boole formalizes Boolean logic, the basis of modern computer calculations.</li>
+</ul>
+
+<h3 id="-the-rise-of-computing-and-early-research-1940-1950">📌 The rise of computing and early research (1940-1950)</h3>
+<p>AI becomes a subject of study with advances in mathematics and computer science:</p>
+<ul>
+  <li><strong>1943</strong>: McCulloch &amp; Pitts develop the first artificial neuron model.</li>
+  <li><strong>1950</strong>: Alan Turing proposes the famous <strong>Turing Test</strong>, a criterion for evaluating the intelligence of a machine.</li>
+</ul>
+
+<h3 id="-official-birth-of-ai-1956">📌 Official birth of AI (1956)</h3>
+<p>At the <strong>Dartmouth conference in 1956</strong>, the term <em>Artificial Intelligence</em> is officially used by John McCarthy. This period marks the beginning of the first experiments on machine learning and problem-solving algorithms.</p>
+
+<hr />
+
+<h2 id="2️⃣-the-major-phases-of-the-evolution-of-ai">2️⃣ The major phases of the evolution of AI</h2>
+
+<h3 id="-1-the-golden-age-of-ai-1956-1974">🔹 1. The golden age of AI (1956-1974)</h3>
+<ul>
+  <li>Development of the first AI programs: <strong>Logic Theorist</strong> (1956) and <strong>General Problem Solver</strong> (1957).</li>
+  <li>Appearance of <strong>expert systems</strong>, programs capable of imitating human decision-making.</li>
+  <li>Massive funding by governments.</li>
+</ul>
+
+<h3 id="-2-the-first-winter-of-ai-1974-1980">🔹 2. The first winter of AI (1974-1980)</h3>
+<ul>
+  <li>The limits of the first algorithms appear: lack of computing power, inefficiency of models.</li>
+  <li>Reduction in funding and slowdown in research.</li>
+</ul>
+
+<h3 id="-3-the-rise-of-expert-systems-1980-1987">🔹 3. The rise of expert systems (1980-1987)</h3>
+<ul>
+  <li>Development of specialized AI for medical diagnosis, finance and industry.</li>
+  <li>Advances in knowledge bases and logical rules.</li>
+</ul>
+
+<h3 id="-4-the-second-winter-of-ai-1987-1993">🔹 4. The second winter of AI (1987-1993)</h3>
+<ul>
+  <li>Expert systems reach their limits.</li>
+  <li>The high cost and complexity of projects slow down progress.</li>
+</ul>
+
+<h3 id="-5-the-renaissance-with-machine-learning-1993-2010">🔹 5. The renaissance with machine learning (1993-2010)</h3>
+<ul>
+  <li>Improved computing capabilities with microprocessors.</li>
+  <li>Development of <strong>artificial neural networks</strong> and <strong>supervised learning algorithms</strong>.</li>
+  <li>First concrete applications: voice recognition, intelligent search engines.</li>
+</ul>
+
+<h3 id="-6-the-era-of-modern-ai-2010-today">🔹 6. The era of modern AI (2010-today)</h3>
+<ul>
+  <li>
+    <p>Explosion of <strong>big data</strong> and <strong>deep learning</strong> algorithms.</p>
+  </li>
+  <li>Appearance of <strong>GPT, BERT</strong>, and other transformative models revolutionizing natural language processing.</li>
+  <li><strong>Self-driving cars, voice assistants (Alexa, Siri), generative AI (ChatGPT, DALL-E).</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-how-does-ai-work-today">3️⃣ How does AI work today?</h2>
+<p>AI is based on several approaches and techniques:</p>
+
+<h3 id="-supervised-learning">📌 <strong>Supervised learning</strong></h3>
+<ul>
+  <li>The algorithm is trained with <strong>labeled data</strong>.</li>
+  <li>Ex: Image recognition (a cat is identified using examples of cat images).</li>
+</ul>
+
+<h3 id="-unsupervised-learning">📌 <strong>Unsupervised learning</strong></h3>
+<ul>
+  <li>The algorithm discovers <strong>hidden patterns</strong> in the data.</li>
+  <li>Ex: Grouping customers in marketing based on similar behaviors.</li>
+</ul>
+
+<h3 id="-reinforcement-learning">📌 <strong>Reinforcement Learning</strong></h3>
+<ul>
+  <li>An agent learns by receiving <strong>rewards or penalties</strong>.</li>
+  <li>Ex: Gaming AIs (AlphaGo, DeepMind) learn by playing against themselves.</li>
+</ul>
+
+<h3 id="-deep-learning-and-neural-networks">📌 <strong>Deep Learning</strong> and Neural Networks</h3>
+<ul>
+  <li>Inspired by the human brain, an <strong>artificial neural network</strong> learns through <strong>multiple layers</strong> of neurons.</li>
+  <li>Ex: Facial recognition, machine translation, self-driving cars.</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-the-impact-of-ai-on-our-society">4️⃣ The impact of AI on our society</h2>
+
+<p>AI is transforming many areas:</p>
+<ul>
+  <li><strong>Health</strong>: Assisted medical diagnosis, surgical robots.</li>
+  <li><strong>Finance</strong>: Fraud detection, algorithmic trading.</li>
+  <li><strong>Transport</strong>: Autonomous vehicles, traffic flow optimization.</li>
+  <li><strong>Marketing</strong>: Advertising personalization, chatbots.</li>
+  <li><strong>Creativity</strong>: Image and text generation (DALL-E, ChatGPT).</li>
+</ul>
+
+<h3 id="-challenges-and-ethical-issues">🔹 Challenges and ethical issues</h3>
+<ul>
+  <li><strong>Algorithmic bias</strong>: risk of discrimination in automated decisions.</li>
+  <li><strong>Impact on employment</strong>: replacement of certain jobs by machines.</li>
+  <li><strong>Confidentiality and security</strong>: massive data collection.</li>
+  <li><strong>Legal framework</strong>: need for regulations on the use of AI.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><strong>Artificial Intelligence</strong> has come a long way, from the first philosophical ideas to today’s advanced models. Thanks to the progress of <strong>Deep Learning</strong> and <strong>massive access to data</strong>, AI continues to revolutionize our daily lives.</p>
+
+<p>However, its development raises <strong>ethical and societal questions</strong> that require special attention.</p>
+
+<p>📌 <strong>And you, what do you think about the evolution of AI?</strong></p>]]></content><author><name></name></author><category term="IA" /><summary type="html"><![CDATA[Artificial Intelligence (AI) is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia1.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/ia1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Django my favorite Backend framework!</title><link href="http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Django-le-framework-backend.html" rel="alternate" type="text/html" title="Django my favorite Backend framework!" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Django-le-framework-backend</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/web-dev/2025/02/09/Django-le-framework-backend.html"><![CDATA[<p>Django is a web framework written in Python that allows you to develop robust, secure, and scalable applications. Designed to make it easy to create websites and APIs, it is based on the <strong>Don’t Repeat Yourself (DRY)</strong> principle and offers a set of built-in tools for rapid development.</p>
+
+<p>This guide will help you learn Django quickly and adopt best practices for efficient and maintainable code.</p>
+
+<hr />
+
+<h2 id="1-what-is-django">1. What is Django?</h2>
+<p>Django is a <strong>full-stack web framework</strong> for Python, which includes everything you need to create a complete web application.</p>
+
+<p>🔹 <strong>Key Features</strong> :</p>
+<ul>
+  <li><strong>Model-View-Template (MVT)</strong> architecture</li>
+  <li>ORM (Object-Relational Mapping) to interact with the database</li>
+  <li>Built-in authentication system</li>
+  <li>Automatic administration interface</li>
+  <li>Enhanced security against common attacks (CSRF, XSS, SQL Injection)</li>
+</ul>
+
+<p>📌 Django is used by large companies like Instagram, Pinterest and Mozilla.</p>
+
+<hr />
+
+<h2 id="2-learn-django-fast-">2. Learn Django fast 🚀</h2>
+<h3 id="-1-install-django-and-create-a-project">🔹 1. Install Django and create a project</h3>
+<p>Make sure you have Python installed, then use <strong>pip</strong> to install Django:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>pip <span class="nb">install </span>django
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Create a new Django project:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>django-admin startproject myproject
+<span class="nb">cd </span>myproject
+python manage.py runserver
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Your application is now accessible at <code class="language-plaintext highlighter-rouge">http://127.0.0.1:8000/</code> 🎉</p>
+
+<h3 id="-2-understand-mvt-architecture">🔹 2. Understand MVT architecture</h3>
+<p>Django follows the <strong>MVT (Model - View - Template)</strong> pattern:</p>
+<ul>
+  <li><strong>Model</strong>: Manages the database.</li>
+  <li><strong>View</strong>: Contains the business logic.</li>
+  <li><strong>Template (Template)</strong> : Sets the page display.</li>
+</ul>
+
+<p>Simple template example:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="n">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+
+<span class="k">class</span> <span class="nc">Article</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+<span class="n">title</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">TextField</span><span class="p">()</span>
+<span class="n">publication_date</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">DateTimeField</span><span class="p">(</span><span class="n">auto_now_add</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="-3-create-a-django-app">🔹 3. Create a Django app</h3>
+<p>In Django, a project can contain multiple apps. To create one:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>python manage.py startapp blog
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Add the app to <code class="language-plaintext highlighter-rouge">INSTALLED_APPS</code> in <code class="language-plaintext highlighter-rouge">settings.py</code>.</p>
+
+<h3 id="-4-configure-routes-and-views">🔹 4. Configure routes and views</h3>
+<p>Define a route in <code class="language-plaintext highlighter-rouge">urls.py</code>:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="n">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
+<span class="kn">from</span> <span class="n">.</span> <span class="kn">import</span> <span class="n">views</span>
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+<span class="nf">path</span><span class="p">(</span><span class="sh">''</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">accueil</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="sh">'</span><span class="s">accueil</span><span class="sh">'</span><span class="p">),</span>
+<span class="p">]</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>And create a view in <code class="language-plaintext highlighter-rouge">views.py</code>:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="n">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+
+<span class="k">def</span> <span class="nf">accueil</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+<span class="k">return</span> <span class="nf">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="sh">'</span><span class="s">accueil.html</span><span class="sh">'</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h2 id="3-best-practices-for-efficient-development-">3. Best practices for efficient development ✅</h2>
+<h3 id="-1-use-a-virtual-environment">🔹 1. Use a virtual environment</h3>
+<p>To isolate your project:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>python <span class="nt">-m</span> venv venv
+<span class="nb">source </span>venv/bin/activate <span class="c"># On macOS/Linux</span>
+venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate <span class="c"># On Windows</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="-2-structure-your-project-properly">🔹 2. Structure your project properly</h3>
+<ul>
+  <li>Separate the <strong>models.py</strong>, <strong>views.py</strong>, <strong>forms.py</strong> and <strong>services.py</strong> files</li>
+  <li>Use <strong>explicit names</strong> for variables and functions</li>
+  <li>Organize <strong>templates</strong> and <strong>static files</strong> in dedicated folders</li>
+</ul>
+
+<h3 id="-3-secure-your-application">🔹 3. Secure your application</h3>
+<ul>
+  <li>Never expose <strong>SECRET_KEY</strong> (<code class="language-plaintext highlighter-rouge">.env</code> recommended with <code class="language-plaintext highlighter-rouge">django-environ</code>)</li>
+  <li>Always enable <code class="language-plaintext highlighter-rouge">DEBUG=False</code> in production</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">django.contrib.auth</code> for user management</li>
+</ul>
+
+<h3 id="-4-optimize-the-database">🔹 4. Optimize the database</h3>
+<ul>
+  <li>Use <strong>select_related() and prefetch_related()</strong> to avoid unnecessary SQL queries</li>
+  <li>Add <strong>indexes on frequently used columns</strong></li>
+  <li>Enable <strong>caching</strong> with <code class="language-plaintext highlighter-rouge">django-cache</code></li>
+</ul>
+
+<h3 id="-5-test-your-code">🔹 5. Test your code</h3>
+<p>Django integrates a testing framework:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>python manage.py <span class="nb">test</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Use <strong>pytest-django</strong> for more advanced testing.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Django is a powerful framework that allows fast and secure development of web applications. By following the steps described and applying best practices, you will be able to create robust and scalable projects. 🚀</p>
+
+<p>Feel free to explore the official documentation: <a href="https://docs.djangoproject.com/fr/">Django Docs</a> 📚</p>
+
+<p>Happy learning!</p>]]></content><author><name></name></author><category term="Web-Dev" /><summary type="html"><![CDATA[Django is a web framework written in Python that allows you to develop robust, secure, and scalable applications. Designed to make it easy to create websites and APIs, it is based on the Don’t Repeat Yourself (DRY) principle and offers a set of built-in tools for rapid development.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/web5.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/web5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What are the AI ​​jobs?</title><link href="http://localhost:4000/martin-tsemegne/ia/2025/02/09/Les-metiers-de-l'ia.html" rel="alternate" type="text/html" title="What are the AI ​​jobs?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/ia/2025/02/09/Les-metiers-de-l&apos;ia</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/ia/2025/02/09/Les-metiers-de-l&apos;ia.html"><![CDATA[<p><strong>Artificial Intelligence (AI)</strong> is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.</p>
+
+<p>In this article, we will explore the evolution of AI, its different approaches, and its impact on our society.</p>
+
+<hr />
+
+<h2 id="1️⃣-the-origins-of-artificial-intelligence">1️⃣ The origins of Artificial Intelligence</h2>
+
+<h3 id="-philosophical-foundations">📌 Philosophical foundations</h3>
+<p>The idea of ​​an <strong>intelligent machine</strong> dates back to Antiquity with philosophical myths and concepts:</p>
+<ul>
+  <li><strong>Antiquity</strong>: Legends of animated statues and automatons in ancient Greece.</li>
+  <li><strong>17th century</strong>: Descartes imagines that animals and humans function like machines.</li>
+  <li><strong>1854</strong>: George Boole formalizes Boolean logic, the basis of modern computer calculations.</li>
+</ul>
+
+<h3 id="-the-rise-of-computing-and-early-research-1940-1950">📌 The rise of computing and early research (1940-1950)</h3>
+<p>AI becomes a subject of study with advances in mathematics and computer science:</p>
+<ul>
+  <li><strong>1943</strong>: McCulloch &amp; Pitts develop the first artificial neuron model.</li>
+  <li><strong>1950</strong>: Alan Turing proposes the famous <strong>Turing Test</strong>, a criterion for evaluating the intelligence of a machine.</li>
+</ul>
+
+<h3 id="-official-birth-of-ai-1956">📌 Official birth of AI (1956)</h3>
+<p>At the <strong>Dartmouth conference in 1956</strong>, the term <em>Artificial Intelligence</em> is officially used by John McCarthy. This period marks the beginning of the first experiments on machine learning and problem-solving algorithms.</p>
+
+<hr />
+
+<h2 id="2️⃣-ai-jobs">2️⃣ AI Jobs</h2>
+<p>The rise of artificial intelligence has spawned a multitude of new jobs specializing in the development, analysis, and application of AI technologies.</p>
+
+<h3 id="-1-machine-learning-engineer">🔹 1. Machine Learning Engineer</h3>
+<ul>
+  <li>Develops and trains machine learning models.</li>
+  <li>Uses frameworks like TensorFlow, PyTorch, and Scikit-learn.</li>
+</ul>
+
+<h3 id="-2-data-scientist">🔹 2. Data Scientist</h3>
+<ul>
+  <li>Analyzes and exploits data to extract insights.</li>
+  <li>Works on statistical modeling and AI algorithms.</li>
+</ul>
+
+<h3 id="-3-artificial-intelligence-engineer">🔹 3. Artificial Intelligence Engineer</h3>
+<ul>
+  <li>Designs AI solutions adapted to various sectors (health, finance, industry, etc.).</li>
+  <li>Implements optimization and automation algorithms.</li>
+</ul>
+
+<h3 id="-4-ai-researcher">🔹 4. AI Researcher</h3>
+<ul>
+  <li>Works on innovation and development of new approaches in AI.</li>
+  <li>Publishes scientific articles and participates in specialized conferences.</li>
+</ul>
+
+<h3 id="-5-computer-vision-engineer">🔹 5. Computer Vision Engineer</h3>
+<ul>
+  <li>Develops image and video recognition models.</li>
+  <li>Uses image processing techniques for AI.</li>
+</ul>
+
+<h3 id="-6-natural-language-processing-engineer-nlp-engineer">🔹 6. Natural Language Processing Engineer (NLP Engineer)</h3>
+<ul>
+  <li>Designs models capable of understanding and generating text.</li>
+  <li>Works on virtual assistants, automatic translators, etc.</li>
+</ul>
+
+<h3 id="-7-robotics-and-ai-developer">🔹 7. Robotics and AI Developer</h3>
+<ul>
+  <li>Integrates AI into robotic systems to automate complex tasks.</li>
+  <li>Works on autonomous cars, industrial robotics, etc.</li>
+</ul>
+
+<h3 id="-8-ai-consultant">🔹 8. AI Consultant</h3>
+<ul>
+  <li>Helps companies integrate AI into their business processes.</li>
+  <li>Develops AI strategies and recommendations.</li>
+</ul>
+
+<h3 id="-9-ai-ethics-officer">🔹 9. AI Ethics Officer</h3>
+<ul>
+  <li>Analyzes the ethical impact of AI systems.</li>
+  <li>Works on algorithmic bias, privacy, and regulations.</li>
+</ul>
+
+<h3 id="-10-big-data-analyst">🔹 10. Big Data Analyst</h3>
+<ul>
+  <li>Mines large amounts of data to derive actionable trends.</li>
+  <li>Works in collaboration with AI and Data Science teams.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><strong>Artificial Intelligence</strong> has come a long way, from the first philosophical ideas to today’s advanced models. Thanks to advances in <strong>Deep Learning</strong> and <strong>massive access to data</strong>, AI continues to revolutionize our daily lives.</p>
+
+<p>Its development has also opened the door to many professional opportunities, giving rise to specialized professions in the design, analysis and ethics of AI.</p>
+
+<p>📌 <strong>And you, which AI profession attracts you the most?</strong>.</p>]]></content><author><name></name></author><category term="IA" /><summary type="html"><![CDATA[Artificial Intelligence (AI) is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence, such as speech recognition, decision-making, and machine learning. Today, AI is ubiquitous, whether in virtual assistants, self-driving cars, or online content recommendations.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/metier.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/metier.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why the Communities?</title><link href="http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/avantages-du-benevolat.html" rel="alternate" type="text/html" title="Why the Communities?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/avantages-du-benevolat</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/volunteering/2025/02/09/avantages-du-benevolat.html"><![CDATA[<p><strong>Communities</strong> play a vital role in personal, professional and social development. Whether local, professional or online, they provide a space for exchange, sharing and support.</p>
+
+<p>In this article, we will explore <strong>the importance of communities</strong>, their benefits and how to effectively integrate into them.</p>
+
+<hr />
+
+<h2 id="1️⃣-what-is-a-community">1️⃣ What is a community?</h2>
+
+<p>A community is a <strong>group of people who share a common interest</strong> and interact to exchange ideas, resources and support. It can be:</p>
+
+<ul>
+  <li><strong>Local</strong>: associations, clubs, neighbourhood groups.</li>
+  <li><strong>Professional</strong>: networks of entrepreneurs, developer groups.</li>
+  <li><strong>Online</strong>: forums, groups on social networks, Discord.</li>
+</ul>
+
+<p>📌 <strong>Examples of communities</strong>:</p>
+<ul>
+  <li>Developer groups (e.g. Google Developers Group, GitHub).</li>
+  <li>Student and professional associations.</li>
+  <li>Forums and support platforms (Stack Overflow, Reddit).</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-why-is-it-important-to-belong-to-a-community">2️⃣ Why is it important to belong to a community?</h2>
+
+<h3 id="-personal-and-social-development">✅ <strong>Personal and social development</strong></h3>
+<ul>
+  <li>Promotes the <strong>exchange of ideas and experiences</strong>.</li>
+  <li>Allows you to <strong>meet people with the same interests</strong>.</li>
+  <li>Strengthens the <strong>sense of belonging and solidarity</strong>.</li>
+</ul>
+
+<h3 id="-professional-opportunities">✅ <strong>Professional opportunities</strong></h3>
+<ul>
+  <li>Allows you to <strong>create a network of contacts</strong> to find job opportunities.</li>
+  <li>Offers <strong>access to expert advice</strong> and industry trends.</li>
+  <li>Facilitates <strong>mutual aid and mentoring</strong>.</li>
+</ul>
+
+<h3 id="-learning-and-skills-development">✅ <strong>Learning and skills development</strong></h3>
+<ul>
+  <li>Access to <strong>training, webinars and conferences</strong>.</li>
+  <li>Possibility to <strong>ask questions and solve problems</strong> in a group.</li>
+  <li>Encouragement of <strong>self-training and knowledge sharing</strong>.</li>
+</ul>
+
+<h3 id="-moral-support-and-motivation">✅ <strong>Moral support and motivation</strong></h3>
+<ul>
+  <li>Breaks <strong>isolation</strong>, especially for self-employed workers or students.</li>
+  <li>Helps to <strong>stay motivated</strong> through peer support.</li>
+  <li>Creates a <strong>collaborative and inspiring environment</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-how-to-integrate-well-into-a-community">3️⃣ How to integrate well into a community?</h2>
+
+<h3 id="-1-find-the-right-community">🔹 1. Find the right community</h3>
+<ul>
+  <li>Identify your <strong>area of ​​interest</strong> (technology, entrepreneurship, ecology, etc.).</li>
+  <li>Search for groups on <strong>LinkedIn, Meetup, Discord, Facebook</strong>.</li>
+  <li>Participate in <strong>events and conferences</strong> related to your interests.</li>
+</ul>
+
+<h3 id="-2-be-active-and-involved">🔹 2. Be active and involved</h3>
+<ul>
+  <li><strong>Ask questions</strong> and <strong>share knowledge</strong>.</li>
+  <li>Participate in <strong>discussions and collaborative projects</strong>.</li>
+  <li>Offer help and respond to other members.</li>
+</ul>
+
+<h3 id="-3-build-authentic-relationships">🔹 3. Build authentic relationships</h3>
+<ul>
+  <li>Interact regularly with members.</li>
+  <li>Attend <strong>physical or online events</strong>.</li>
+  <li>Avoid a purely opportunistic approach, favor sharing.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Being a member of a <strong>community</strong> is a real asset for personal and professional development. Exchanges, knowledge sharing and mutual support allow you to evolve more quickly and effectively in a given field.</p>
+
+<p>Getting involved in a community also means <strong>contributing to its collective enrichment</strong> and reaping many benefits in return. 🚀</p>
+
+<p>📌 <strong>And you, are you part of a community? Which ones helped you the most?</strong></p>]]></content><author><name></name></author><category term="Volunteering" /><summary type="html"><![CDATA[Communities play a vital role in personal, professional and social development. Whether local, professional or online, they provide a space for exchange, sharing and support.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/benevole4.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/benevole4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is Machine Learning?</title><link href="http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/c'est-quoi-le-ml.html" rel="alternate" type="text/html" title="What is Machine Learning?" /><published>2025-02-09T00:00:00+01:00</published><updated>2025-02-09T00:00:00+01:00</updated><id>http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/c&apos;est-quoi-le-ml</id><content type="html" xml:base="http://localhost:4000/martin-tsemegne/machine-learning/2025/02/09/c&apos;est-quoi-le-ml.html"><![CDATA[<p><strong>Machine Learning (ML)</strong>, or <strong>machine learning</strong>, is a branch of artificial intelligence that allows computers to learn from data without being explicitly programmed. Through learning algorithms, machines can detect patterns, make predictions, and improve over time.</p>
+
+<p>In this article, we will explore <strong>the origin of ML, how it works, its applications, and how to get started</strong>.</p>
+
+<hr />
+
+<h2 id="1️⃣-history-and-evolution-of-machine-learning">1️⃣ History and evolution of Machine Learning</h2>
+
+<p>The concept of machine learning was born with the rise of artificial intelligence.</p>
+
+<h3 id="-the-beginnings-of-ml">📌 The beginnings of ML</h3>
+<ul>
+  <li><strong>1950</strong>: Alan Turing publishes his article on AI and proposes the <strong>Turing Test</strong>.</li>
+  <li><strong>1957</strong>: Frank Rosenblatt develops the <strong>Perceptron</strong>, an artificial neuron model inspired by the human brain.</li>
+  <li><strong>1980-1990</strong>: Improvement of algorithms thanks to multi-layer neural networks.</li>
+</ul>
+
+<h3 id="-the-rise-of-modern-ml">📌 The rise of modern ML</h3>
+<ul>
+  <li><strong>2000-2010</strong>: Development of <strong>deep learning</strong> algorithms.</li>
+  <li><strong>2010-today</strong>: Explosion of <strong>Big Data</strong>, improvement of computer hardware (GPU, TPU), and advances in <strong>natural language processing (NLP)</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-how-does-machine-learning-work">2️⃣ How does Machine Learning work?</h2>
+<p>ML is based on three main categories of learning:</p>
+
+<h3 id="-1-supervised-learning">🔹 1. Supervised learning</h3>
+<ul>
+  <li>The algorithm learns from <strong>labeled data</strong>.</li>
+  <li>Examples: image recognition, email classification (spam vs. non-spam).</li>
+  <li>Common algorithms: <strong>Linear regression, Decision trees, SVM, Neural networks</strong>.</li>
+</ul>
+
+<h3 id="-2-unsupervised-learning">🔹 2. Unsupervised learning</h3>
+<ul>
+  <li>The algorithm discovers <strong>hidden patterns</strong> without labels.</li>
+  <li>Examples: customer segmentation in marketing, anomaly detection.</li>
+  <li>Common algorithms: <strong>K-Means, PCA (Principal Component Analysis), Autoencoders</strong>.</li>
+</ul>
+
+<h3 id="-3-reinforcement-learning">🔹 3. Reinforcement learning</h3>
+<ul>
+  <li>An agent learns by <strong>trial and error</strong>, by receiving <strong>rewards or penalties</strong>.</li>
+  <li>Examples: AlphaGo (Go game), autonomous cars.</li>
+  <li>Common algorithms: <strong>Q-Learning, Deep Q-Networks (DQN), Proximal Policy Optimization (PPO)</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="3️⃣-machine-learning-applications">3️⃣ Machine Learning Applications</h2>
+<p>Machine Learning is used in many fields:</p>
+
+<h3 id="-health">✅ <strong>Health</strong></h3>
+<ul>
+  <li>Early detection of diseases (e.g. cancer, heart disease).</li>
+  <li>Medical image analysis (X-rays, MRI).</li>
+</ul>
+
+<h3 id="-finance">✅ <strong>Finance</strong></h3>
+<ul>
+  <li>Bank fraud detection.</li>
+  <li>Stock market trend prediction.</li>
+</ul>
+
+<h3 id="-marketing-and-recommendations">✅ <strong>Marketing and recommendations</strong></h3>
+<ul>
+  <li>Personalized suggestions (Netflix, Amazon, Spotify).</li>
+  <li>Customer segmentation for ad targeting.</li>
+</ul>
+
+<h3 id="-natural-language-processing-nlp">✅ <strong>Natural language processing (NLP)</strong></h3>
+<ul>
+  <li>Voice assistants (Siri, Alexa).</li>
+  <li>Machine translation (Google Translate).</li>
+  <li>Text generation (ChatGPT, BERT).</li>
+</ul>
+
+<h3 id="-transport-and-robotics">✅ <strong>Transport and robotics</strong></h3>
+<ul>
+  <li>Self-driving cars (Tesla, Waymo).</li>
+  <li>Route optimization in logistics.</li>
+</ul>
+
+<hr />
+
+<h2 id="4️⃣-how-to-get-started-in-machine-learning">4️⃣ How to get started in Machine Learning?</h2>
+
+<h3 id="-1-learn-programming">🔹 1. Learn programming</h3>
+<ul>
+  <li><strong>Python</strong> is the most used language in ML.</li>
+  <li>Key libraries: <strong>Scikit-learn, TensorFlow, PyTorch, Keras</strong>.</li>
+</ul>
+
+<h3 id="-2-acquire-basics-in-mathematics">🔹 2. Acquire basics in mathematics</h3>
+<ul>
+  <li><strong>Linear algebra</strong> (matrices, vectors).</li>
+  <li><strong>Probability and statistics</strong>.</li>
+  <li><strong>Differential calculus</strong> (for model training).</li>
+</ul>
+
+<h3 id="-3-experiment-with-datasets">🔹 3. Experiment with datasets</h3>
+<ul>
+  <li><strong>Kaggle</strong>: ML challenge platform.</li>
+  <li><strong>Google Colab</strong>: online environment to run ML code.</li>
+  <li><strong>Public datasets</strong>: MNIST (handwritten digits), CIFAR-10 (images), IMDB (texts).</li>
+</ul>
+
+<h3 id="-4-build-projects">🔹 4. Build projects</h3>
+<ul>
+  <li>Create an <strong>image classifier</strong>.</li>
+  <li>Build a <strong>real estate price prediction model</strong>.</li>
+  <li>Develop an <strong>NLP chatbot</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Machine Learning</strong> is a key technology that is transforming many sectors. Thanks to its rapid evolution, it is now accessible to everyone, whether for research, industrial applications or personal projects.</p>
+
+<p>If you want to learn ML, start by <strong>mastering Python, exploring algorithms and experimenting with practical projects</strong>. 🚀</p>
+
+<p>📌 <strong>And you, which area of ​​ML interests you the most?</strong></p>]]></content><author><name></name></author><category term="Machine-Learning" /><summary type="html"><![CDATA[Machine Learning (ML), or machine learning, is a branch of artificial intelligence that allows computers to learn from data without being explicitly programmed. Through learning algorithms, machines can detect patterns, make predictions, and improve over time.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/Machine-Learning.jpg" /><media:content medium="image" url="http://localhost:4000/martin-tsemegne/martin-tsemegne/assets/images/Machine-Learning.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

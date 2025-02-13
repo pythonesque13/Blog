@@ -1,0 +1,12 @@
+<div class="trending-tags">
+    <h3>Trending Tags</h3>
+    {% assign tags = site.posts | map: "category" | uniq %}
+    <div class="tags-list">
+        {% for tag in tags %}
+        <a href="/martin-tsemegne/categories/{{ tag | slugify }}" class="tag-link {% if page.category == tag %}active{% endif %}">
+            {{ tag }}
+            <span class="count">{{ site.posts | where: "category", tag | size }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</div>

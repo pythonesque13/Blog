@@ -1,0 +1,35 @@
+// _variables.scss
+:root {
+    // Light theme (default)
+    --primary-color: #333;
+    --secondary-color: #666;
+    --accent-color: #1084f07e;
+    --background-color: #fff;
+    --back-copy:#f5f5f5;
+    --text-color: #333;
+    --border-color: rgba(65, 81, 228, 0.267);
+    --sub-color:black;
+    --sidebar-color:rgba(226, 207, 207, 0.425);
+    
+    // Font settings (these don't need to change with theme)
+    --font-family-base: 'Roboto', sans-serif;
+    --font-family-headers: 'Montserrat', sans-serif;
+    --font-size-base: 16px;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --spacing-unit: 1rem;
+    --border-radius: 8px;
+  }
+  
+  // Dark theme
+  [data-theme="dark"] {
+    --primary-color: #fff;
+    --secondary-color: #ccc;
+    --accent-color: #0084ff;
+    --background-color: #1a1a1a;
+    --text-color: #fff;
+    --back-copy:#ffffff7a;
+    --border-color: #82cbe7ab;
+    --sub-color:rgba(88, 181, 235, 0.808);
+    --sidebar-color:rgba(109, 102, 102, 0.603);
+  }

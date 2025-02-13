@@ -1,0 +1,33 @@
+.recent-posts {
+    max-width: 450px;
+    overflow: hidden;
+    margin-bottom: 75px;
+    margin-top: 45px;
+
+    h3 {
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: var(--primary-color);
+    }
+
+    .list-recents {
+        border-left: 2px solid var(--primary-color);
+        padding-left: 15px; 
+        margin: 0; 
+    }
+
+    li {
+        list-style: none;
+        padding: 5px 0; 
+        margin-left: 0; 
+
+        a {
+            text-decoration: none;
+            color: var(--primary-color); 
+            
+            &:hover {
+                color: var(--accent-color); 
+            }
+        }
+    }
+}

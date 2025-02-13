@@ -1,0 +1,90 @@
+
+.breadcrumb {
+    background: var(--background-color);
+    margin-top: 1rem;
+    
+    ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      color: var(--text-color);
+      
+      &.active {
+        color: var(--accent-color);
+        font-weight: 500;
+      }
+      
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--secondary-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+        &:hover {
+          color: var(--accent-color);
+        }
+        
+        i {
+          font-size: 0.8rem;
+        }
+      }
+      
+      .separator {
+        margin: 0 0.5rem;
+        color: var(--secondary-color);
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
+  // Animation au survol
+  .breadcrumb li a {
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background-color: var(--accent-color);
+      transition: width 0.3s ease;
+    }
+    
+    &:hover::after {
+      width: 100%;
+    }
+  }
+  
+  // Responsive
+  @media (max-width: 768px) {
+    .breadcrumb {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      
+      ol {
+        gap: 0.25rem;
+      }
+      
+      li {
+        font-size: 0.8rem;
+        
+        .separator {
+          margin: 0 0.25rem;
+        }
+      }
+    }
+  }

@@ -1,0 +1,33 @@
+.trending-tags {
+    h3 {
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: var(--primary-color);
+    }
+    
+    .tags-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 1rem;
+        border-left: 2px solid var(--primary-color);
+        
+        .tag-link {
+            background: rgba(138, 138, 223, 0.39);
+            padding: 0.25rem 0.75rem;
+            border-radius: 16px ;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 0.9rem;
+            
+            &:hover {
+                background: darken(#1708df9c, 5%);
+            }
+            
+            &.active {
+                background: var(--accent-color);
+                color: white;
+            }
+        }
+    }
+}

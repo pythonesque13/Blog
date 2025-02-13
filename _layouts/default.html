@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            {% include sidebar.html %}
+        </aside>
+        
+        <div class="page-wrapper">
+            <main class="content">
+              {% include breadcrumb.html%}
+              {% include search.html%}
+              {{ content }}
+            </main>
+            
+            <footer class="site-footer">
+              <div class="footer-separator"></div>
+              <div class="footer-card">
+                <p class="licence">
+                  &copy; 2025 <a href="{{ '/' | relative_url }}">Martin TSEMEGNE</a>. Some rights reserved.
+                </p>
+                <p class="using-text">
+                  Using <a href="https://jekyllrb.com/">Jekyll</a>.
+                </p>
+              </div>
+            </footer>
+          </div>
+        
+        <aside class="right-sidebar">
+            {% include recent-posts.html %}
+            {% include trending-tags.html %}
+        </aside>
+    </div>
+</body>
+<script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/copy-code.js' | relative_url }}"></script>
+</html>
